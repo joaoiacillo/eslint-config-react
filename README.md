@@ -11,10 +11,10 @@
 
 ## Installation and Usage
 
-1. Install the package as dev dependency:
+1. Install the package, as well as it's dependecies, as dev dependency:
 
-```
-npm i --save-dev @technohiru/eslint-config-react
+```bash
+$ npm i --save-dev @technohiru/eslint-config-react eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh eslint-plugin-simple-import-sort
 ```
 
 2. Extend the default configuration file in the `.eslintrc.{json|js}` file:
